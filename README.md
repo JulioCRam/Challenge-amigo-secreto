@@ -1,7 +1,7 @@
 # Challenge-amigo-secreto
 <h1 align="center"> Amigo Secreto </h1>
 <img width="306" height="165" alt="descarga" src="https://github.com/user-attachments/assets/e868be7e-2bc1-46a4-a28e-5687ab3b5619" /><br>
-Este proyecto fue un gran reto donde buscamos desarrollar una herramienta que nos permitiria jugar al amigo secretop, creando listas para contener los nombres de los participantes y creabndo funciones para almacenar y seleccionar al azar uno de ellos.<br>
+Este proyecto fue un gran reto donde buscamos desarrollar una herramienta que nos permitiria jugar al amigo secreto, creando listas para contener los nombres de los participantes y creando funciones para almacenar y seleccionar al azar uno de ellos.<br>
 <img width="1759" height="891" alt="Captura de pantalla 2025-09-17 203133" src="https://github.com/user-attachments/assets/089f5555-95dc-4947-86ef-619bab36c310" />
 
 :hammer:Funcionalidades del proyecto<br>
