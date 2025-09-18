@@ -20,7 +20,6 @@ function agregarAmigo(){
 
 
 function mostrarlista(){
-    listaResultado.innerHTML = '';
     listaAmigos.innerHTML = '';
 
 nombres.forEach(nombres => {
@@ -29,6 +28,27 @@ nombres.forEach(nombres => {
     listaAmigos.appendChild(li);
 })
 }
+
+function sortearAmigo(){
+    //validacion minimo de amigos
+    if(nombres.length < 2){
+        alert("el numero minimo de participantes debe ser 2")
+        return null;
+    }
+    let aleatorio = Math.floor(Math.random() * nombres.length)
+    return nombres[aleatorio];
+    
+}
+function mostrarAmigo(){
+
+    let nombreAleatorio = sortearAmigo();
+   if (nombreAleatorio !== null) {
+        
+        alert("Tu amigo secreto es: " + nombreAleatorio);
+
+   }
+}
+
 
 
    
